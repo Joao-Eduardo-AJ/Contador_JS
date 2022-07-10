@@ -5,9 +5,11 @@ function substituiPares(array) {
         } else if (array[i] % 2 === 0) {
             console.log(`Substituindo ${array[i]} por 0...`)
             array[i] = 0;
-        } else {
+        } else if (array[i] % 2 !== 0) {
+            console.log(`O número ${array[i]} é ímpar...`); {
         }
     }
+}
     return array;
 }
 

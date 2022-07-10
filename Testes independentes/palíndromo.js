@@ -21,4 +21,4 @@ function verificarPalindromo(string) {
     return true;
 }
 
-console.log(verificarPalindromo("abcdedcba"));
+console.log(verificarPalindromo("renner"));
